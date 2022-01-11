@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: golang-test
+    - name: golang-test3
     - name: quickstart-node
     scheduler: in-repo
   slack:
