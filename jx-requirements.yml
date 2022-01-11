@@ -30,7 +30,7 @@ spec:
       enabled: false
       production: false
   pipelineUser:
-    username: cns
+    username: cns-ubiwhere
   repository: bucketrepo
   secretStorage: local
   vault: {}
