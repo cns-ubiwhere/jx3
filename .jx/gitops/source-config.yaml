@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: golang-test
     - name: golang-test3
+    - name: golang-test4
     - name: quickstart-node
     scheduler: in-repo
   slack:
