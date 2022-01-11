@@ -17,7 +17,7 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
-    owner: cns
+    owner: cns-ubiwhere
     repository: jx3
   - key: staging
   - key: production
