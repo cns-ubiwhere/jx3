@@ -9,6 +9,7 @@ data:
       enabled:
         cns-ubiwhere/golang-test: true
         cns-ubiwhere/golang-test3: true
+        cns-ubiwhere/golang-test4: true
         cns-ubiwhere/jx3: true
         cns-ubiwhere/quickstart-node: true
     plank: {}
@@ -24,6 +25,7 @@ data:
       merge_method:
         cns-ubiwhere/golang-test: merge
         cns-ubiwhere/golang-test3: merge
+        cns-ubiwhere/golang-test4: merge
         cns-ubiwhere/jx3: merge
         cns-ubiwhere/quickstart-node: merge
       queries:
@@ -39,6 +41,7 @@ data:
         - cns-ubiwhere/jx3
         - cns-ubiwhere/golang-test
         - cns-ubiwhere/golang-test3
+        - cns-ubiwhere/golang-test4
         - cns-ubiwhere/quickstart-node
       - labels:
         - updatebot
@@ -52,6 +55,7 @@ data:
         - cns-ubiwhere/jx3
         - cns-ubiwhere/golang-test
         - cns-ubiwhere/golang-test3
+        - cns-ubiwhere/golang-test4
         - cns-ubiwhere/quickstart-node
       target_url: http://lighthouse-jx.jx.snob.ubiwhere.com/merge/status
 kind: ConfigMap

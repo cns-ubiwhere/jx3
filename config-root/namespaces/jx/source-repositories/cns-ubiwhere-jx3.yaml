@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cns-ubiwhere
+    provider: github
+    repository: jx3
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: cns-ubiwhere-jx3
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/cns-ubiwhere/jx3.git
+  org: cns-ubiwhere
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx3
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/cns-ubiwhere/jx3
